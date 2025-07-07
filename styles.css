@@ -1,38 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Water Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section: This is the main banner at the top of the page -->
+    <section class="hero">
+        <!-- Main headline -->
+        <h1>Clean Water for Everyone</h1>
+        <!-- Subheadline -->
+        <p>Join us in bringing safe, clean water to communities in need.</p>
+    </section>
 
-.hero {
-    background-color: #00b5e2;
-    color: white;
-    padding: 100px 20px;
-}
+    <!-- Story Section: This tells the story of the nonprofit -->
+    <section class="story">
+      <h2>Our Story</h2>
+      <p>
+        Charity: water is a nonprofit organization bringing clean and safe drinking water to people in developing countries.  
+        Every donation funds projects that build wells, install water filtration systems, and improve sanitation.  
+        Access to clean water transforms communities by improving health, education, and economic opportunity.
+      </p>
+    </section>
 
-.cta {
-    margin: 30px 0;
-}
+    <!-- Real-World Impact Story Section -->
+    <section class="impact-story">
+        <!-- Section headline -->
+        <h2>Real Impact: Meet Amina</h2>
+        <!-- Container for image and text -->
+        <div class="impact-content">
+            <!-- Impact image -->
+            <img src="https://www.globalgiving.org/pfil/9432/ph_9432_32070.jpg" alt="Amina smiling with clean water" class="impact-image">
+            <!-- Impact story text -->
+            <p>
+                Amina used to walk several miles every single day just to collect water for her family. The water she gathered was often dirty and unsafe, which caused frequent illnesses for her children and made daily life very difficult. Because of the time and effort spent fetching water, Amina’s children often missed school and could not fully enjoy their childhood. However, thanks to your generous support, charity: water was able to build a clean water well right in her village. Now, Amina and her family have easy access to safe, clean water just steps from their home. This has made a huge difference in their lives. Amina’s children can attend school regularly, stay healthy, and dream about a brighter future. Amina herself feels relieved and hopeful, as she no longer has to worry about where her next drink of water will come from. Your contribution has truly transformed their community, bringing health, happiness, and new opportunities to Amina and her loved ones.
+            </p>
+        </div>
+    </section>
 
-.button {
-    background-color: #f37021;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 25px;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #d65c1e;
-}
-
-footer {
-    background-color: #004a6e;
-    color: white;
-    padding: 20px;
-}
+    <!-- Call-to-Action Section: This encourages visitors to take action -->
+    <section class="cta">
+      <a href="https://www.charitywater.org/" target="_blank" rel="noopener noreferrer" class="donate-button">
+    Donate Now
+      </a>
+    </section>
+</body>
+</html>
